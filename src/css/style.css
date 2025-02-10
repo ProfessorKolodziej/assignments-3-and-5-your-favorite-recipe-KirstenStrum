@@ -1,11 +1,91 @@
-@media screen and (width >= 320px) {
-	#some-id {
-		color: red;
-	}
+* {
+	box-sizing: border-box;
 }
 
-@media screen and (width >= 500px) {
-	#some-id {
-		color: red;
-	}
+body {
+	margin: 0;
+	background-color: #EFD3C2;
+}
+
+
+.navigation {
+	background-color: #503A2D;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 15px;
+}
+
+.content-container {
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.highlight-section {
+	padding: 20px;
+	color: #503A2D;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.ingredients-section {
+	padding: 20px;
+	background-color: #503A2D;
+	color: #EFD3C2;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.brown-butter-section {
+	padding: 20px;
+	background-color: rgba(80, 58, 45, 0.16);
+	color: #503A2D;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.donts-section {
+	padding: 20px;
+	background-color: rgba(80, 58, 45, 0.16);
+	color: #503A2D;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.ingredients2-section {
+	padding: 20px;
+	background-color: #503A2D;
+	color: #EFD3C2;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.instructions-section {
+	padding: 20px;
+	background-color: #503A2D;
+	color: #EFD3C2;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.notes-section {
+	padding: 20px;
+	background-color: #503A2D;
+	color: #EFD3C2;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: "Inria Serif", serif;
+}
+
+h2 {
+	font-family: "Inria Serif", serif;
+}
+
+p,
+ol,
+ul {
+	font-family: "Inria Sans", sans-serif;
 }
