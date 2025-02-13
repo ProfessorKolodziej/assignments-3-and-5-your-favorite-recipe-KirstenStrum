@@ -52,6 +52,30 @@ body {
 	margin: 0 auto;
 }
 
+.chill-section {
+	padding: 20px;
+	background-color: rgba(80, 58, 45, 0.16);
+	color: #503A2D;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.freeze-section {
+	padding: 20px;
+	background-color: rgba(80, 58, 45, 0.16);
+	color: #503A2D;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.storage-section {
+	padding: 20px;
+	background-color: rgba(80, 58, 45, 0.16);
+	color: #503A2D;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 .ingredients2-section {
 	padding: 20px;
 	background-color: #503A2D;
@@ -86,6 +110,7 @@ h2 {
 
 p,
 ol,
-ul {
+ul,
+h3 {
 	font-family: "Inria Sans", sans-serif;
 }
