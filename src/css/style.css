@@ -7,13 +7,16 @@ body {
 	background-color: #EFD3C2;
 }
 
+html {
+	scroll-behavior: smooth;
+}
 
 .navigation {
 	display: flex;
 	padding: 15px 10px;
 	justify-content: center;
 	align-items: center;
-	gap: 50px;
+	gap: 25px;
 	align-self: stretch;
 	background: #503A2D;
 }
@@ -34,6 +37,28 @@ body {
 	gap: 10px;
 	border-radius: 10px;
 	background: #503A2D;
+	font-size: 24px;
+	font-family: "Inria Serif", serif;
+}
+
+.jumptorecipe a {
+	color: #EFD3C2 !important;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.recipe-article a {
+
+	color: #EFD3C2 !important;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-decoration: underline;
+
 }
 
 .intro-section {
@@ -53,6 +78,7 @@ body {
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 10px;
+	border-radius: 10px;
 }
 
 .brown-butter-section {
@@ -71,14 +97,13 @@ body {
 .donts-section {
 	background-color: rgba(80, 58, 45, 0.16);
 	color: #503A2D;
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 	display: flex;
-	width: 1000px;
 	padding: 10px;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 10px;
+	gap: 5px;
 	border-radius: 10px;
 }
 
@@ -124,6 +149,18 @@ body {
 	border-radius: 10px;
 }
 
+.outro-section {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	width: 1000px;
+	padding: 10px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+
+}
+
 .recipe-article {
 	padding: 20px;
 	background-color: #503A2D;
@@ -131,7 +168,7 @@ body {
 	max-width: 1200px;
 	margin: 0 auto;
 	display: flex;
-	height: 1699px;
+	height: auto;
 	flex-direction: column;
 	align-items: center;
 	gap: 25px;
@@ -180,15 +217,231 @@ body {
 
 h1 {
 	font-family: "Inria Serif", serif;
+	font-size: 48px;
 }
 
 h2 {
 	font-family: "Inria Serif", serif;
+	font-size: 36px;
 }
 
 p,
 ol,
-ul,
+ul {
+	font-family: "Inria Sans", sans-serif;
+}
+
 h3 {
 	font-family: "Inria Sans", sans-serif;
+	font-size: 24px;
+}
+
+img[src="images/ChocChip1.jpg"] {
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	width: 1200px;
+	height: 400px;
+	object-fit: cover;
+}
+
+img[src="images/ChocChip2.jpg"] {
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	width: 1200px;
+	height: 600px;
+	object-fit: cover;
+}
+
+img[src="images/ChocChip3.jpg"] {
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	width: 1200px;
+	height: 500px;
+	object-fit: cover;
+	object-position: center 65%;
+
+}
+
+img[src="images/ChocChip4.jpg"] {
+	display: block;
+	margin: 20px auto;
+	max-width: 80%;
+	height: auto;
+	border-radius: 10px;
+	max-width: 1200px;
+}
+
+img[src="images/ChocChip5.jpg"] {
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	width: 1200px;
+	height: 400px;
+	object-fit: cover;
+}
+
+img[src="images/ChocChip6.jpg"] {
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	width: 1200px;
+	height: 600px;
+	object-fit: cover;
+}
+
+img[src="images/ChocChip7.jpg"] {
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	width: 1200px;
+	height: 600px;
+	object-fit: cover;
+}
+
+img[src="images/ChocChip8.jpg"] {
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	width: 1200px;
+	height: 800px;
+	object-fit: cover;
+}
+
+
+@media screen and (max-width: 320px) {
+
+	.heading-section,
+	.intro-section,
+	.ingredients-section1,
+	.brown-butter-section,
+	.donts-section,
+	.chill-section,
+	.freeze-section,
+	.storage-section,
+	.outro-section,
+	.recipe-article,
+	.recipe-info-section,
+	.ingredients2-section,
+	.instructions-section,
+	.notes-section {
+		max-width: 90%;
+		width: 90%;
+		margin: 0 auto;
+		padding: 15px;
+
+		.navigation {
+			max-width: 90%;
+			width: 90%;
+			margin: 0 auto;
+		}
+	}
+}
+
+@media screen and (max-width: 320px) {
+	img {
+		display: block;
+		max-width: 95%;
+		height: auto;
+		margin: 15 auto;
+	}
+
+	img[src="images/ChocChip4.jpg"] {
+		display: block;
+		margin: 15 auto;
+		max-width: 95%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 834px) {
+
+	.heading-section,
+	.intro-section,
+	.ingredients-section1,
+	.brown-butter-section,
+	.donts-section,
+	.chill-section,
+	.freeze-section,
+	.storage-section,
+	.outro-section,
+	.recipe-article,
+	.recipe-info-section,
+	.ingredients2-section,
+	.instructions-section,
+	.notes-section {
+		max-width: 90%;
+		width: 90%;
+		margin: 0 auto;
+		padding: 15px;
+
+		.navigation {
+			max-width: 90%;
+			width: 90%;
+			margin: 0 auto;
+		}
+	}
+}
+
+@media screen and (max-width: 834px) {
+	img {
+		display: block;
+		max-width: 95%;
+		height: auto;
+		margin: 15 auto;
+	}
+
+	img[src="images/ChocChip4.jpg"] {
+		display: block;
+		margin: 15 auto;
+		max-width: 95%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	img {
+		display: block;
+		max-width: 95%;
+		height: auto;
+		margin: 15 auto;
+	}
+
+	img[src="images/ChocChip4.jpg"] {
+		display: block;
+		margin: 15 auto;
+		max-width: 95%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+
+	.heading-section,
+	.intro-section,
+	.ingredients-section1,
+	.brown-butter-section,
+	.donts-section,
+	.chill-section,
+	.freeze-section,
+	.storage-section,
+	.outro-section,
+	.recipe-article,
+	.recipe-info-section,
+	.ingredients2-section,
+	.instructions-section,
+	.notes-section {
+		max-width: 90%;
+		width: 90%;
+		margin: 0 auto;
+		padding: 15px;
+
+		.navigation {
+			max-width: 90%;
+			width: 90%;
+			margin: 0 auto;
+		}
+	}
 }
