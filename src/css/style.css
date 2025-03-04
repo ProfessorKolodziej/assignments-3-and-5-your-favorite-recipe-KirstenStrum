@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 }
 
-
 body {
 	margin: 0;
 	background-color: #EFD3C2;
@@ -95,23 +94,20 @@ html {
 	margin: 0px auto;
 	display: flex;
 	width: 1000px;
-	padding: 15px;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 10px;
 	border-radius: 10px;
 }
 
 .donts-section {
-	background-color: rgba(80, 58, 45, 0.16);
 	color: #503A2D;
+	background-color: rgba(80, 58, 45, 0.16);
 	max-width: 1000px;
 	margin: 15px auto;
 	display: flex;
 	padding: 10px;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 5px;
 	border-radius: 10px;
 }
 
@@ -125,12 +121,10 @@ html {
 	padding: 10px;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 10px;
 	border-radius: 10px;
 }
 
 .freeze-section {
-	background-color: rgba(80, 58, 45, 0.16);
 	color: #503A2D;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -139,8 +133,8 @@ html {
 	padding: 10px;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 10px;
 	border-radius: 10px;
+	border: 5px solid #503A2D;
 }
 
 .storage-section {
@@ -164,7 +158,6 @@ html {
 	padding: 10px;
 	flex-direction: column;
 	align-items: center;
-	gap: 10px;
 	text-align: center;
 }
 
@@ -197,7 +190,6 @@ html {
 	background-color: #EFD3C2;
 	color: #503A2D;
 	margin: 20px auto;
-	margin-bottom: 40px;
 }
 
 .instructions-section {
@@ -229,28 +221,33 @@ a {
 	border-radius: 10px;
 	background-color: #EFD3C2;
 	color: #503A2D;
-	margin: 15px;
+	margin: 15px auto;
 }
 
 h1 {
 	font-family: "Inria Serif", serif;
 	font-size: 48px;
+	margin: 10px;
 }
 
 h2 {
 	font-family: "Inria Serif", serif;
 	font-size: 36px;
+	margin: 20px;
 }
 
 p,
 ol,
 ul {
 	font-family: "Inria Sans", sans-serif;
+	line-height: 1.7;
+	margin: 5px;
 }
 
 h3 {
 	font-family: "Inria Serif", serif;
 	font-size: 24px;
+	margin: 5px;
 }
 
 img[src="images/ChocChip1.jpg"] {
@@ -346,7 +343,6 @@ img[src="images/ChocChip8.jpg"] {
 	.notes-section {
 		max-width: 90%;
 		width: 90%;
-		margin: 15px auto;
 		padding: 15px;
 
 		.navigation {
@@ -391,7 +387,6 @@ img[src="images/ChocChip8.jpg"] {
 	.notes-section {
 		max-width: 90%;
 		width: 90%;
-		margin: 0 auto;
 		padding: 15px;
 
 		.navigation {
@@ -421,8 +416,6 @@ img[src="images/ChocChip8.jpg"] {
 	}
 }
 
-
-
 @media screen and (min-width: 1280px) {
 
 	.heading-section,
@@ -439,7 +432,6 @@ img[src="images/ChocChip8.jpg"] {
 	.notes-section {
 		max-width: 90%;
 		width: 90%;
-		margin: 0 auto;
 		padding: 15px;
 
 		.navigation {
